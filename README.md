@@ -1,14 +1,28 @@
-# Halo
+<p align="center">
+  <img src="assets/readme/halo-stars.png" width="100%" alt="" />
+</p>
 
-*A small eternity, squandered beneath the stars.*
+<h1 align="center">Halo</h1>
 
-Some nights, we stay beneath the stars long after there is anything left to say. We invent constellations, lend distant lights the names of people we miss, and let the hours go unaccounted for.
+<p align="center">
+  <em>A small eternity, squandered beneath the stars.</em>
+</p>
 
-Halo is what we call the brightness that follows us home. It settles around ordinary things—a window, an unfinished letter, a name—and stays a little longer than it should.
+<br />
 
-We gave that name to this small corner of our work: a place where an idea can find something to lean on, the freedom to wander, and company through the long nights. Here, it has time to grow into something beautiful.
+<blockquote>
+  <p>Some nights, we stay beneath the stars long after there is anything left to say. We invent constellations, lend distant lights the names of people we miss, and let the hours go unaccounted for.</p>
+  <p>Halo is what we call the brightness that follows us home. It settles around ordinary things—a window, an unfinished letter, a name—and stays a little longer than it should.</p>
+  <p>We gave that name to this small corner of our work: a place where an idea can find something to lean on, the freedom to wander, and company through the long nights. Here, it has time to grow into something beautiful.</p>
+</blockquote>
 
-Every algorithm deserves a light of its own.
+<p align="center">
+  <strong><em>Every algorithm deserves a light of its own.</em></strong>
+</p>
+
+<p align="center">
+  <img src="assets/readme/halo-divider.svg" width="560" height="32" alt="" />
+</p>
 
 ## What is Halo?
 
@@ -18,10 +32,16 @@ Its intended role is similar to a game engine for game developers or a machine l
 
 Halo is designed to provide:
 
-- **Data:** geometry, graphs, spatial indexes, netlists, placement models, and routing resources.
-- **Execution:** dependency-aware task scheduling, parallel execution, and resource coordination.
-- **Hardware:** access to compute devices and memory through backend interfaces.
-- **Integration:** language SDKs, a versioned C ABI, and a common algorithm registration interface.
+<table>
+  <tr>
+    <td width="50%" valign="top"><p><strong>Data:</strong><br />geometry, graphs, spatial indexes, netlists, placement models, and routing resources.</p></td>
+    <td width="50%" valign="top"><p><strong>Execution:</strong><br />dependency-aware task scheduling, parallel execution, and resource coordination.</p></td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top"><p><strong>Hardware:</strong><br />access to compute devices and memory through backend interfaces.</p></td>
+    <td width="50%" valign="top"><p><strong>Integration:</strong><br />language SDKs, a versioned C ABI, and a common algorithm registration interface.</p></td>
+  </tr>
+</table>
 
 The default developer experience will use **prebuilt Halo libraries**. Algorithm authors will build their own code and lightweight SDK wrappers without rebuilding the engine. Building Halo from source will remain an option.
 
@@ -71,6 +91,10 @@ Prebuilt packages will target specific operating systems and architectures. SDK 
 
 Hardware backend availability will be documented separately for each platform.
 
+<p align="center">
+  <img src="assets/readme/halo-divider.svg" width="560" height="32" alt="" />
+</p>
+
 ## Algorithms and extensions
 
 Research algorithms are developed in **independent repositories** against the Halo SDK. They can be considered for integration after technical and licensing review.
@@ -89,7 +113,12 @@ Algorithm authors will use the same registration contract wherever practical, al
 
 Halo is licensed under [Apache-2.0](LICENSE). Incorporated third-party components retain any required license notices. Separately licensed extensions are governed by their own terms.
 
-## After Hours 😈
+<p align="center">
+  <img src="assets/readme/halo-divider.svg" width="560" height="32" alt="" />
+</p>
+
+<details>
+<summary><strong>After Hours 😈</strong></summary>
 
 *Experimental romance. Peer review pending.*
 
@@ -97,3 +126,4 @@ Halo is licensed under [Apache-2.0](LICENSE). Incorporated third-party component
 2. When loving two people becomes impossible to hide, fall for a third and redistribute the drama. 🔀😈
 3. Never ask a woman if she's single. If she likes you, she's single. 😉😈
 
+</details>
